@@ -1,0 +1,14 @@
+data : "C:/Users/jean/Documents/hands-on-2021/notebooks/GTSRB/Final_Training/Images/*/*.csv"
+
+test_size : 0.2
+random_state : 42
+batch_size : 32
+epochs : 15
+N : 10000
+optimizer : "adam"
+activation : "relu"
+activation_s : "softmax"
+Dropout_rate : 0.25
+Dropout_rate1 : 0.5
+metrics : "accuracy"
+loss : "categorical_crossentropy"
